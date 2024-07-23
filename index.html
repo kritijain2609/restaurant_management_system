@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELCOME TO INDIE ZAIKA</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <style>
+        /* Your CSS styles here */
+        .navbar-nav > .nav-item > a {
+            color: orange;
+        }
+        .navbar-nav {
+            margin-left: auto;
+        }
+        .navbar-nav > .nav-item > a, .navbar-nav > .nav-item > button {
+            margin-left: 15px;
+        }
+        .navbar-nav > .nav-item > a {
+            font-weight: bold;
+        }
+        .col {
+            position: relative;
+            left: -400px;
+            top: 2px;
+        }
+        .exi {
+            position: relative;
+            left: 1px;
+            text-align: justify;
+        }
+        .heading {
+            background-color: orange;
+            font-size: 40px;
+            font-family: Georgia;
+            font-weight: 900;
+            padding: 10px;
+            color: white;
+        }
+        .border {
+            position: relative;
+            left: 70px;
+        }
+        .topbutton, .secondbutton, .bottombutton {
+            position: relative;
+            left: 1150px;
+        }
+        .secondbutton {
+            left: 1200px;
+        }
+        .bottombutton {
+            left: 1200px;
+        }
+        .container {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .btn-warning {
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        body {
+            background-color: #f8f9fa;
+        }
+        .heading {
+            color: #333;
+            margin-top: 20px;
+        }
+        .abc img {
+            cursor: pointer;
+            transition: transform 0.2s ease;
+        }
+        .abc img:hover {
+            transform: scale(1.05);
+        }
+        .bottombutton {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .bottombutton button {
+            background: none;
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+        .modal-dialog {
+            max-width: 600px; /* Adjust to control the width of the modal */
+        }
+        .modal-body img {
+            width: 100%;
+            max-height: 400px; /* Adjust to control the height of the image */
+            object-fit: contain;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="images/logo.png" width="150" height="110" alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home"><u>HOME</u></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery"><u>GALLERY</u></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#menu"><u>MENU</u></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#reservation"><u>RESERVATION</u></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="order.html"><u>ORDER NOW</u></a>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-outline-warning">1100567893</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section id="home">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images/restaurant.jpg" width="500" height="550" alt="Restaurant">
+                </div>
+                <div class="col-7">
+                    <h1 class="heading" style="margin-left: 60px;"><strong>EAT THAT HUNGER AWAY.</strong></h1>
+                    <br>
+                    <div class="border border-success border-3 border-dark">
+                        <p class="exi" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                          WELCOME to  "Indie Zaika",  It is a North Indian, South Indian, Chinese, and Italian restaurant that serves Authentic ‘Zaika special Thali’, a wide variety of spices play a key role in our menu, with all Indian exotic ingredients, unfamiliar dishes, an tongue-tingling flavors, our Indian cuisine can be both exciting and intimidating. "It's such a complete world of best flavors.
+                          <br>Indie Zaika is a specialty restaurant with a spacious dining space. Our chef uses the whole palette of flavors- spicy sour, sweet and hot all at the same time making it something that wants to jump off the plate and touch your tongue. The only thing that connects the restaurant with its customers is its years of cooking knowledge and the use of spices. The economical menu unleashes the foodie in you and gets the urge to try every dish so that you can enjoy every bite of real flavours. The staff makes sure you get what you want and pays extra attention to your needs. The easiest way of bringing the tastes of India into your mouth is by ordering online by Indie Zaika at your door steps or by stepping out of your home and exploring this place and sharing your experience with us which is much value to our restaurant.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="topbutton">
+                <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/top.png" height="30" width="30" alt="Go to top"></button>
+            </div>
+            <script>
+                var mybutton = document.getElementById("myBtn");
+                window.onscroll = function() { scrollFunction() };
+                function scrollFunction() {
+                    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                        mybutton.style.display = "block";
+                    } else {
+                        mybutton.style.display = "none";
+                    }
+                }
+                function topFunction() {
+                    document.body.scrollTop = 0;
+                    document.documentElement.scrollTop = 0;
+                }
+            </script>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <center><strong><p class="heading">TRENDING FOOD IN YOUR CITY</p></strong></center>
+        <div class="def">
+            <div id="foodCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <center>
+                        <div class="carousel-item active">
+                            <img src="images/IMG_20220715_204950_013.jpg" class="d-block w-95" alt="..." height="500" width="700">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/IMG_20220620_205930_884.jpg" class="d-block w-95" alt="..." height="500" width="800">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/IMG_20220630_230025_108.jpg" class="d-block w-95" alt="..." height="500" width="750">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/IMG_20220708_210329_538.jpg" class="d-block w-95" alt="..." height="500" width="650">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/IMG_20220707_200335_072.jpg" class="d-block w-95" alt="..." height="500" width="650">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/IMG_20220622_195942_578.jpg" class="d-block w-95" alt="..." height="500" width="750">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/IMG_20220630_163207.jpg" class="d-block w-95" alt="..." height="500" width="750">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/IMG_20220702_153704.jpg" class="d-block w-95" alt="..." height="500" width="750">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/IMG_20220719_183306_871.jpg" class="d-block w-95" alt="..." height="500" width="750">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/IMG-20220723-WA0002 (1).jpg" class="d-block w-95" alt="..." height="500" width="750">
+                        </div>
+                    </center>
+                </div>
+            </div>
+        </div>
+        <div class="secondbutton">
+            <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/top.png" height="30" width="30" alt="Go to top"></button>
+        </div>
+    </section>
+    
+
+    <section id="menu">
+      <div class="container">
+          <center><strong><p class="heading">MENU OF INDIE ZAIKA</p></strong></center>
+          <div class="row abc">
+              <!-- Image 1 -->
+              <div class="col-md-3 mb-3">
+                  <img src="images/m45450-16053354715faf79afa63b7.webp" height="300" width="260" alt="Menu Item" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modal1">
+              </div>
+              <!-- Modal 1 -->
+              <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                              <h5 class="modal-title" id="modal1Label">Menu Item</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                              <img src="images/m45450-16053354715faf79afa63b7.webp" alt="Menu Item">
+                          </div>
+                          <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary" id="prev1" data-bs-target="#modal8" data-bs-toggle="modal">Previous</button>
+                              <button type="button" class="btn btn-primary" id="next1" data-bs-target="#modal2" data-bs-toggle="modal">Next</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Image 2 -->
+              <div class="col-md-3 mb-3">
+                  <img src="images/m45450-16053355245faf79e439a34.webp" height="300" width="260" alt="Menu Item" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modal2">
+              </div>
+              <!-- Modal 2 -->
+              <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                              <h5 class="modal-title" id="modal2Label">Menu Item</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                              <img src="images/m45450-16053355245faf79e439a34.webp" alt="Menu Item">
+                          </div>
+                          <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary" id="prev2" data-bs-target="#modal1" data-bs-toggle="modal">Previous</button>
+                              <button type="button" class="btn btn-primary" id="next2" data-bs-target="#modal3" data-bs-toggle="modal">Next</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Image 3 -->
+              <div class="col-md-3 mb-3">
+                  <img src="images/m45450-16053356095faf7a39d0be7.webp" height="300" width="260" alt="Menu Item" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modal3">
+              </div>
+              <!-- Modal 3 -->
+              <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                              <h5 class="modal-title" id="modal3Label">Menu Item</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                              <img src="images/m45450-16053356095faf7a39d0be7.webp" alt="Menu Item">
+                          </div>
+                          <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary" id="prev3" data-bs-target="#modal2" data-bs-toggle="modal">Previous</button>
+                              <button type="button" class="btn btn-primary" id="next3" data-bs-target="#modal4" data-bs-toggle="modal">Next</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Image 4 -->
+              <div class="col-md-3 mb-3">
+                  <img src="images/m45450-16053358005faf7af8cd28a.webp" height="300" width="260" alt="Menu Item" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modal4">
+              </div>
+              <!-- Modal 4 -->
+              <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modal4Label" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                              <h5 class="modal-title" id="modal4Label">Menu Item</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                              <img src="images/m45450-16053358005faf7af8cd28a.webp" alt="Menu Item">
+                          </div>
+                          <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary" id="prev4" data-bs-target="#modal3" data-bs-toggle="modal">Previous</button>
+                              <button type="button" class="btn btn-primary" id="next4" data-bs-target="#modal5" data-bs-toggle="modal">Next</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Image 5 -->
+              <div class="col-md-3 mb-3">
+                  <img src="images/m45450-16053356665faf7a720f89c.webp" height="300" width="260" alt="Menu Item" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modal5">
+              </div>
+              <!-- Modal 5 -->
+              <div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="modal5Label" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                              <h5 class="modal-title" id="modal5Label">Menu Item</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                              <img src="images/m45450-16053356665faf7a720f89c.webp" alt="Menu Item">
+                          </div>
+                          <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary" id="prev5" data-bs-target="#modal4" data-bs-toggle="modal">Previous</button>
+                              <button type="button" class="btn btn-primary" id="next5" data-bs-target="#modal6" data-bs-toggle="modal">Next</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Image 6 -->
+              <div class="col-md-3 mb-3">
+                  <img src="images/m45450-16053356935faf7a8dc91b3.webp" height="300" width="260" alt="Menu Item" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modal6">
+              </div>
+              <!-- Modal 6 -->
+              <div class="modal fade" id="modal6" tabindex="-1" aria-labelledby="modal6Label" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                              <h5 class="modal-title" id="modal6Label">Menu Item</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                              <img src="images/m45450-16053356935faf7a8dc91b3.webp" alt="Menu Item">
+                          </div>
+                          <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary" id="prev6" data-bs-target="#modal5" data-bs-toggle="modal">Previous</button>
+                              <button type="button" class="btn btn-primary" id="next6" data-bs-target="#modal7" data-bs-toggle="modal">Next</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Image 7 -->
+              <div class="col-md-3 mb-3">
+                  <img src="images/m45450-16053357205faf7aa86d892.webp" height="300" width="260" alt="Menu Item" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modal7">
+              </div>
+              <!-- Modal 7 -->
+              <div class="modal fade" id="modal7" tabindex="-1" aria-labelledby="modal7Label" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                              <h5 class="modal-title" id="modal7Label">Menu Item</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                              <img src="images/m45450-16053357205faf7aa86d892.webp" alt="Menu Item">
+                          </div>
+                          <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary" id="prev7" data-bs-target="#modal6" data-bs-toggle="modal">Previous</button>
+                              <button type="button" class="btn btn-primary" id="next7" data-bs-target="#modal8" data-bs-toggle="modal">Next</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Image 8 -->
+              <div class="col-md-3 mb-3">
+                  <img src="images/m45450-16053358265faf7b125e79f.webp" height="300" width="260" alt="Menu Item" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modal8">
+              </div>
+              <!-- Modal 8 -->
+              <div class="modal fade" id="modal8" tabindex="-1" aria-labelledby="modal8Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modal8Label">Menu Item</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <img src="images/m45450-16053358265faf7b125e79f.webp" alt="Menu Item">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary" id="prev8" data-bs-target="#modal7" data-bs-toggle="modal">Previous</button>
+                            <!-- Remove the next button or disable it in the last modal -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="bottombutton">
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/top.png" height="30" width="30" alt="Go to top"></button>
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"></script>
+    <section id="reservation">
+        <div class="container text-center">
+            <h1 class="heading">MAKE A RESERVATION</h1>
+            <form id="reservation-form" action="process_reservation.php" method="POST">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number:</label>
+                            <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter your phone number" required>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="form-group">
+                            <label for="date">Date:</label>
+                            <input type="date" class="form-control" id="date" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="time">Time:</label>
+                            <input type="time" class="form-control" id="time" name="time" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="guests">Number of Guests:</label>
+                            <input type="number" class="form-control" id="guests" name="guests" placeholder="Enter number of guests" required>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-warning">Reserve Now</button>
+            </form>
+        </div>
+    </section>
+    <script>
+        var myCarousel = document.getElementById('foodCarousel');
+        var carousel = new bootstrap.Carousel(myCarousel, {
+            interval: 1500 // Set interval to 2 seconds
+        });
+    </script>
+    
+    <script>
+      
+        var mybutton = document.getElementById("myBtn");
+        window.onscroll = function() { scrollFunction() };
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+</html>

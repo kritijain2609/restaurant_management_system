@@ -1,0 +1,57 @@
+*
+{
+    margin :0;
+    padding:0;
+}
+body
+{
+    font-family: sans-serif;
+    
+}
+.topnav-right {
+    float: right;
+  }
+  .nav-bar{
+    position: fixed;
+    width: 100%;
+  }
+  .navbar-toggler:focus{
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+  }
+  .top-banner .exi{
+    width:100%;
+    background-image:url('C:\Users\DELL\OneDrive\Pictures\images.jpg') no-repeat center;
+    background-size:cover;
+  }
+  body {
+    font-family: Arial, sans-serif;
+}
+
+#nav-bar {
+    margin-bottom: 20px;
+}
+
+.heading {
+    color: #FF5722;
+}
+
+.exi {
+    color: #FF5722;
+    font-size: 18px;
+}
+
+.topbutton, .secondbutton, .thirdbutton, .fourthbutton {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.topbutton #myBtn {
+    background-color: #FF5722;
+}
+
+.carousel-item img {
+    max-height: 500px;
+}
